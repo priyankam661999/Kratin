@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(to right, lightblue, lightpink);
+}
+.catalog{
+    color: blueviolet;
+
+   
+}
+.listyle{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+.listyle li{
+    border: 2px solid black;}
+
+.listyle img{
+    height: 230px;
+    width: 200px;
+}
+.coursedisplay{
+    height: auto;
+    width: auto;
+    border: 2px solid lightgoldenrodyellow;
+    display: flex;
+}
+.bg:hover{
+    background-color: antiquewhite;
+
+    animation-duration:2s ;
+    animation: movingdiv  2s ease-in-out infinite alternate;
+}
+@keyframes movingdiv{
+    0%{
+		transform: translateY(-6%);
+	}
+	100%{
+		transform: translateY(5%);
+	}
+}
+button{
+    background-color: brown;
+    color: white;
+    justify-content: space-evenly;
+    border-radius: 15%;
+    height: 30px;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, main, footer {
+    margin-bottom: 20px;
+}
+
+.course-catalog, .course-details {
+   
+    padding: 10px;
+    margin-bottom: 10px;}
+   
+    .course-catalog,.course-details h2{
+color: brown;
+    }
